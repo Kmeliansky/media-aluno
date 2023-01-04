@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
+    <script src="_js/index.js"></script>
+
+    <title>Boletim mackenzin</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Boletim Mackenzin 2022</h1>
+    </header>
+    <hr> 
+    <main class="main">
+        <form class="formulario">
+            <h2>Insira os dados</h2>
+            <div class="col-form">
+                <label for="text">Insira o nome do aluno:</label>
+                <input title="insira o nome do aluno" type="text" name="text" id="name">
+            </div>
+            <div class="col-form">
+                <label for="number">insira a nota do 1º bimestre</label>
+                <input title="insira a nota do primeiro bimestre do aluno" type="number" name="nota" id="nota1">
+            </div>
+            <div class="col-form">
+                <label for="number">insira a nota do 2º bimestre</label>
+                <input title="insira a nota do segundo bimestre do aluno aqui" type="number" name="nota" id="nota2">
+            </div>
+            <div class="col-form">
+                <label for="number">insira a nota do 3º bimestre</label>
+                <input title="insira a nota do terceiro bimestre do aluno aqui" type="number" name="nota" id="nota3">
+            </div>
+            <div class="col-form">
+                <label for="number">insira a nota do 4º bimestre</label>
+                <input title="insira a nota do quarto bimestre do aluno aqui" type="number" name="nota" id="nota4">
+            </div>
+            <div class="col-form">
+                <button class="botao" type="button" onclick="verify_aluno()">Calcular</button>
+                <div id="sit">Situação:</div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Boletim mackenzin | todos os direitos reservados</p>
+    </footer>
+
+</body>
+
+</html>
